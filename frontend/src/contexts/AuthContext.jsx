@@ -15,7 +15,7 @@ export const AuthProvider = ({ children }) => {
   const [token, setToken] = useState(localStorage.getItem("token"))
   const [authError, setAuthError] = useState(null)
 
-  const API_BASE_URL = "http://localhost:5000/api"
+  const API_BASE_URL = "https://reactjs-sample-0225-6kjf.onrender.com/api"
 
   // Create axios instance with default config
   const axiosInstance = axios.create({

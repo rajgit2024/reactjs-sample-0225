@@ -82,7 +82,7 @@ const Profile = () => {
                 {loading ? "Generating..." : "Generate New Avatar"}
               </button>
 
-              {avatarInfo && (
+              {/* {avatarInfo && (
                 <div className="bg-gray-50 rounded-xl p-6 w-full">
                   <h4 className="text-lg font-semibold text-gray-800 mb-4">Avatar Details</h4>
                   <div className="space-y-3 text-sm">
@@ -115,7 +115,7 @@ const Profile = () => {
                     )}
                   </div>
                 </div>
-              )}
+              )} */}
             </div>
 
             <div className="space-y-6">
