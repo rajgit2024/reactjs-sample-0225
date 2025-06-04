@@ -134,18 +134,11 @@ const Profile = () => {
                   <div className="bg-gray-50 px-4 py-3 rounded-lg text-gray-800">
                     {currentUser?.email || "Not provided"}
                   </div>
-                </div>
-reactjs-sample-0225 
+                </div> 
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Member Since</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">User Id</label>
                   <div className="bg-gray-50 px-4 py-3 rounded-lg text-gray-800">
-                    {currentUser?.createdAt
-                      ? new Date(currentUser.createdAt).toLocaleDateString("en-US", {
-                          year: "numeric",
-                          month: "long",
-                          day: "numeric",
-                        })
-                      : "Not available"}
+                    {currentUser?.id || "Not provided"}
                   </div>
                 </div>
               </div>
