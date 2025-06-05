@@ -135,12 +135,12 @@ const Profile = () => {
                     {currentUser?.email || "Not provided"}
                   </div>
                 </div> 
-                <div>
+                {/* <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">User Id</label>
                   <div className="bg-gray-50 px-4 py-3 rounded-lg text-gray-800">
                     {currentUser?.id || "Not provided"}
                   </div>
-                </div>
+                </div> */}
               </div>
 
               <div className="pt-6">
